@@ -1,1 +1,1 @@
-from .elastic_connector import ES_connector
+from .client import ElasticConnector

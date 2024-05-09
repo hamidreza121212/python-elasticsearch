@@ -23,3 +23,8 @@ url = "https://tictactoe.example.com"
 url = "https://tictactoe.example.com"
 url2 = "https://tictactoe.example.com"
 url3 = "https://tictactoe.example.com"
+
+
+[elasticsearch]
+
+HOST = "http://localhost:9200"
