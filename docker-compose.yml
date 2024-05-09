@@ -4,7 +4,7 @@ services:
     container_name: elasticsearch
     image: elasticsearch:8.11.3
     environment: 
-      - 'CLI_JAVA_OPTS=-Xms1g -Xmx1g'
+      - 'CLI_JAVA_OPTS=-Xms512m -Xmx512m' # Adjusted heap size to 512 MB
       - 'bootstrap.memory_lock=true'
       - 'discovery.type=single-node'
       - 'xpack.security.enabled=false'

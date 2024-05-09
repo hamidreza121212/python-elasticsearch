@@ -28,9 +28,9 @@ class ElasticConnector:
     def search(self, index, body):
         return self.client.search(index=index, body=body)
 
-    def create_index(self, index_name, index_mapping):
+    def create_index(self, index_name, body):
         try:
-            self.client.indices.create(index=index_name, mappings=index_mapping)
+            self.client.indices.create(index=index_name, body=body)
         except Exception as e:
             elasticsearchLogger.error(f"create_index ERROR : {e}")
 
