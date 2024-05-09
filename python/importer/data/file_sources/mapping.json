@@ -1,0 +1,15 @@
+{
+    "mappings": {
+      "properties": {
+        "name": {"type": "keyword"},
+        "alpha-2": {"type": "keyword"},
+        "alpha-3": {"type": "keyword"},
+        "country-code": {"type": "integer"},
+        "iso_3166-2": {"type": "text"},
+        "region": {"type": "keyword"},
+        "region-code": {"type": "integer"},
+        "sub-region-code": {"type": "integer"}
+      }
+    }
+  }
+  

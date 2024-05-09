@@ -1,0 +1,25 @@
+# tic_tac_toe.toml
+
+[user]
+player_x.color = "blue"
+player_o.color = "green"
+
+[log]
+CONFIG_PATH = 'logging.toml'
+LOG_DIRS = [
+    ['logs'],
+    ['logs', 'core'],
+    ['logs', 'elasticsearch'],
+]
+
+[constant]
+board_size = 3
+
+[server]
+url = "https://tictactoe.example.com"
+
+
+[server.detail]
+url = "https://tictactoe.example.com"
+url2 = "https://tictactoe.example.com"
+url3 = "https://tictactoe.example.com"
